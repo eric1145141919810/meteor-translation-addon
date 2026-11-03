@@ -13,6 +13,8 @@
 
 把流星端的模块名称翻译为你游戏的语言
 
+> 当前适配：Minecraft **26.3** + Meteor Client 26.3（需 Java 25 与 Fabric Loader ≥ 0.19.5）
+
 ### How to use
 ## 如何使用
 Click the Translation button on the Translation module configuration screen
