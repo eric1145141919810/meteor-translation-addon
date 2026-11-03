@@ -21,8 +21,9 @@ import static meteordevelopment.meteorclient.renderer.text.CustomTextRenderer.SH
 @Mixin(value = CustomTextRenderer.class)
 public abstract class CustomTextRendererMixin implements TextRenderer {
 
+    // MC 26.3 上游里 CustomTextRenderer.mesh 已不是 final 字段，保留 @Final 会在启动时刷
+    // "@Final field mesh:... should be final" 警告，故仅用 @Shadow。
     @Shadow
-    @Final
     private MeshBuilder mesh = new MeshBuilder(MeteorRenderPipelines.UI_TEXT);
 
 
