@@ -6,6 +6,7 @@
 </div>
 
 
+用AI移植到了26.3版本
 本模组翻译已完成
 感谢 [顶针](https://github.com/dingzhen-vape) 提供的lang文件
 
